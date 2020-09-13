@@ -21,7 +21,7 @@ async function start() {
     await page.setViewport({ width: 1100, height: 700});
     await page.keyboard.type(' ');
     await page.waitFor(5000);
-    console.log(k);
+    //console.log(k);
     k += 1;
     await page.close();
   }
