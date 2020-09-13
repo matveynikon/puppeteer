@@ -216,7 +216,7 @@ else if(array_key_exists('button2', $_POST)) {
 function button1(){
   ignore_user_abort(true);
   exec("node i.js",$o,$v);
-  sleep(10); 
+  sleep(20); 
   print_r($o);
   echo $v;
 }
