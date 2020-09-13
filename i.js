@@ -20,7 +20,7 @@ async function start() {
     await page.goto(url);
     await page.setViewport({ width: 1100, height: 700});
     await page.keyboard.type(' ');
-    await page.waitFor(7000);
+    await page.waitFor(5000);
     console.log(k);
     k += 1;
     await page.close();
