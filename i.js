@@ -8,13 +8,13 @@ var l = x / 14000;
 var k = 1;
 console.log('dude');
 async function start() {
-  const url = 'https://www.youtube.com/watch?v=LUTVUGDOzOM';
+  const url = 'https://matveynikon.wixsite.com/dailyhero/post/4-ocean';
   console.log(url);  
   const browser = await puppeteer.launch({
       args: ['--no-sandbox'],
       headless: false
     }); 
-  for(var g = 2; g > 0; g--){
+  for(var g = 1; g > 0; g--){
     const page = await browser.newPage();
     page.setDefaultNavigationTimeout(0);
     await page.goto(url);
